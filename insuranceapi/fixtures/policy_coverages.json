@@ -1,0 +1,26 @@
+[
+  {
+      "model": "insuranceapi.policycoverage",
+      "pk": 1,
+      "fields": {
+          "policy_id": 1,
+          "coverage_id": 3
+      }
+  },
+  {
+      "model": "insuranceapi.policycoverage",
+      "pk": 2,
+      "fields": {
+          "policy_id": 3,
+          "coverage_id": 2
+      }
+  },
+  {
+      "model": "insuranceapi.policycoverage",
+      "pk": 3,
+      "fields": {
+          "policy_id": 2,
+          "coverage_id": 2
+      }
+  }
+]

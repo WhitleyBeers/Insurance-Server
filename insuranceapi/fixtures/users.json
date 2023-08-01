@@ -1,0 +1,41 @@
+[
+  {
+      "model": "insuranceapi.user",
+      "pk": 1,
+      "fields": {
+          "email": "oliver@gmail.com",
+          "first_name": "Oliver",
+          "last_name": "Berry",
+          "address": "123 Main Street",
+          "phone_number": "123-456-7890",
+          "profile_image_url": "https://st3.depositphotos.com/17828278/33150/v/450/depositphotos_331503262-stock-illustration-no-image-vector-symbol-missing.jpg",
+          "uid": "1"
+      }
+  },
+  {
+      "model": "insuranceapi.user",
+      "pk": 2,
+      "fields": {
+          "email": "junie@gmail.com",
+          "first_name": "Juniper",
+          "last_name": "Cat",
+          "address": "753 Guard Road",
+          "phone_number": "098-765-4321",
+          "profile_image_url": "https://st3.depositphotos.com/17828278/33150/v/450/depositphotos_331503262-stock-illustration-no-image-vector-symbol-missing.jpg",
+          "uid": "2"
+      }
+  },
+  {
+      "model": "insuranceapi.user",
+      "pk": 3,
+      "fields": {
+          "email": "voo@gmail.com",
+          "first_name": "Voodoo",
+          "last_name": "Kitty",
+          "address": "9024 Clark Circle",
+          "phone_number": "615-322-5000",
+          "profile_image_url": "https://st3.depositphotos.com/17828278/33150/v/450/depositphotos_331503262-stock-illustration-no-image-vector-symbol-missing.jpg",
+          "uid": "3"
+      }
+  }
+]
