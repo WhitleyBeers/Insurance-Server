@@ -1,0 +1,29 @@
+[
+  {
+    "model": "insuranceapi.policy",
+    "pk": 1,
+    "fields": {
+      "user_id": 3,
+      "company": "GEICO",
+      "vehicle": "Jeep"
+    }
+  },
+  {
+    "model": "insuranceapi.policy",
+    "pk": 2,
+    "fields": {
+      "user_id": 1,
+      "company": "ALLSTATE",
+      "vehicle": "Tesla"
+    }
+  },
+  {
+    "model": "insuranceapi.policy",
+    "pk": 3,
+    "fields": {
+      "user_id": 2,
+      "company": "Progressive",
+      "vehicle": "BWM"
+    }
+  }
+]
