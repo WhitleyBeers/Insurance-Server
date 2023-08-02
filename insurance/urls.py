@@ -17,15 +17,17 @@ from django.conf.urls import include
 from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
-from insuranceapi.views import register_user, check_user, UserView
+from insuranceapi.views import register_user, check_user, UserView, CoverageView, PolicyView
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', UserView, 'user')
+router.register(r'coverages', CoverageView, 'coverage')
+router.register(r'policies', PolicyView, 'policy')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
     path('register', register_user),
     path('checkuser', check_user)
-    ]
+]
