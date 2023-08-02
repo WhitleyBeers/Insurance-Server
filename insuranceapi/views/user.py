@@ -22,13 +22,13 @@ class UserView(ViewSet):
         serializer = UserSerializer(users, many=True, context={'request': request})
         return Response(serializer.data)
       
-    def create(self, request):
-        """POST request to create a user"""
-        uid = request.META["HTTP_AUTHORIZATION"]
-        serializer = CreateUserSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save(uid=uid)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    # def create(self, request):
+    #     """POST request to create a user"""
+    #     uid = request.META["HTTP_AUTHORIZATION"]
+    #     serializer = CreateUserSerializer(data=request.data)
+    #     serializer.is_valid(raise_exception=True)
+    #     serializer.save(uid=uid)
+    #     return Response(serializer.data, status=status.HTTP_201_CREATED)
         
     def update(self, request, pk):
         """PUT request to update a user"""
