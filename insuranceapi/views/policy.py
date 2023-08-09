@@ -80,6 +80,15 @@ class PolicyView(ViewSet):
         )
         policy_coverage.delete()
         return Response({'message': 'Coverage removed from policy'}, status=status.HTTP_204_NO_CONTENT)
+    
+    @action(methods=['delete'], detail=True)
+    def removecoverage(self, request, pk):
+        """remove all coverages associated with a certain policy"""
+        policy_coverages = PolicyCoverage.objects.filter(
+            policy_id = pk
+        )
+        policy_coverages.delete()
+        return Response({'message': 'All coverages removed from policy'}, status=status.HTTP_204_NO_CONTENT)
 
 
 class PolicySerializer(serializers.ModelSerializer):
