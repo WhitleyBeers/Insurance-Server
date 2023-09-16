@@ -1,0 +1,26 @@
+[
+    {
+        "model": "businessapi.business",
+        "pk": 1,
+        "fields": {
+            "name": "K n K mobile",
+            "business_type": 8,
+            "pitch": "We come to you, relax at home while we detail your ride",
+            "area": "wherever you are",
+            "cost": "$150-800",
+            "user": 1
+        }
+    },
+    {
+        "model": "businessapi.business",
+        "pk": 2,
+        "fields": {
+            "name": "Nashville Coffee",
+            "business_type": 1,
+            "pitch": "Coffee from the soul to the heart",
+            "area": "Franklin",
+            "cost": "$50,000",
+            "user": 2
+        }
+    }
+]

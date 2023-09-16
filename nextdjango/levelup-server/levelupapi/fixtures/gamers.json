@@ -1,0 +1,10 @@
+[
+    {
+        "model": "levelupapi.gamer",
+        "pk": 1,
+        "fields": {
+            "uid": 1,
+            "bio": "Dede"
+        }
+    }
+]

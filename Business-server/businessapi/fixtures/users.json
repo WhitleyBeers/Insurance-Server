@@ -1,0 +1,26 @@
+[
+  {
+      "model": "businessapi.user",
+      "pk": 1,
+      "fields": {
+          "email": "Kain@gmail.com",
+          "first_name": "Kane",
+          "last_name": "Kaston",
+          "phone_number": "123-456-7890",
+          "image": "https://pbs.twimg.com/profile_images/1162154474959515649/k3XiWZv-_400x400.jpg",
+          "uid": 1
+      }
+  },
+  {
+      "model": "businessapi.user",
+      "pk": 2,
+      "fields": {
+          "email": "OgCat@gmail.com",
+          "first_name": "Dutch",
+          "last_name": "Meow",
+          "phone_number": "098-765-4321",
+          "image": "https://media.nftb.io/media/thumbnails/nfts/7m2gFsxZvRTW7CGXEmrYA51654342614294.jpeg",
+          "uid": 2
+      }
+  }
+]

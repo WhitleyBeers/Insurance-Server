@@ -1,0 +1,121 @@
+[
+    {
+        "model": "businessapi.businesstype",
+        "pk": 1,
+        "fields": {
+            "label": "Coffee Shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 2,
+        "fields": {
+            "label": "Pet shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 3,
+        "fields": {
+            "label": "Clothing Boutique"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 4,
+        "fields": {
+            "label": "Smoke Shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 5,
+        "fields": {
+            "label": "Bakery"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 6,
+        "fields": {
+            "label": "Grocery and Specialty Food Shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 7,
+        "fields": {
+            "label": "Food Truck"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 8,
+        "fields": {
+            "label": "Car Wash/ Mobile Detailing"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 9,
+        "fields": {
+            "label": "Workout/ Fighting Gym"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 10,
+        "fields": {
+            "label": "Restaurant"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 11,
+        "fields": {
+            "label": "Hair salon/ Barbershop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 12,
+        "fields": {
+            "label": "Bar/ Saloon"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 13,
+        "fields": {
+            "label": "Ice Cream Shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 14,
+        "fields": {
+            "label": "Flower Shop"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 15,
+        "fields": {
+            "label": "Message Therapist"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 16,
+        "fields": {
+            "label": "Liquor Store"
+        }
+    },
+    {
+        "model": "businessapi.businesstype",
+        "pk": 17,
+        "fields": {
+            "label": "PawnShop"
+        }
+    }
+]

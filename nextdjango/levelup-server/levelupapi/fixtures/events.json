@@ -1,0 +1,24 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "description": "Family Game With Strangers",
+            "date": "2023-09-10",
+            "time": "11:30",
+            "organizer_id": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "game": 2,
+            "description": "Find the Eldin Ring",
+            "date": "2023-05-25",
+            "time": "03:00",
+            "organizer_id": 1
+        }
+    }
+]

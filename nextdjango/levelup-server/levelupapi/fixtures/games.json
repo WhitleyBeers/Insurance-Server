@@ -1,0 +1,38 @@
+[
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "game_type": 1,
+            "title": "Monopoly",
+            "maker": "Parker Brothers",
+            "gamer": 1,
+            "number_of_players": 5,
+            "skill_level": 3
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 2,
+        "fields": {
+            "game_type": 2,
+            "title": "Eldin Ring",
+            "maker": "FromSoftware",
+            "gamer": 1,
+            "number_of_players": 1,
+            "skill_level": 5
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "game_type": 3,
+            "title": "world of warcraft",
+            "maker": "Blizzard Ent",
+            "gamer": 1,
+            "number_of_players": 1,
+            "skill_level": 2
+        }
+    }
+]
